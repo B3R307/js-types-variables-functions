@@ -1,45 +1,22 @@
 /**
  * isVowel()
- * ------------------------------------------------------
+ * --------s----------------------------------------------
  * Write a function called isVowel() that returns true/false for
  * whether a character is a vowel or not.
  *
  **/
-
-function isVowel(wrd){
-  var resultado = true
-
-   if (wrd === 'a'){
-     console.log(resultado);
-     return resultado
-
-   } else if (wrd === 'e'){
-       console.log(resultado);
-       return resultado
-   } else if (wrd === 'i'){
-       console.log(resultado);
-       return resultado
-   } else if (wrd === 'o'){
-       console.log(resultado);
-       return resultado
-   } else if (wrd === 'u'){
-       console.log(resultado);
-       return resultado
-  }  else if (wrd === 'y'){
-       console.log(resultado);
-       return resultado
-  }  else if (wrd === 'A'){
-       console.log(resultado);
-       return resultado
-  }  else if (wrd === 'O'){
-       console.log(resultado);
-       return resultado
-     }
-    else {
-      console.log(false);
-      return false
-    }
+//
+function isVowel(vowel){
+  // console.log(vowel);
+  var vowHere = false
+  if( vowel === 'a' || vowel === 'e' || vowel === 'i' || vowel === 'o' || vowel ==='u' || vowel === 'y'){
+    return true
+  } else if(vowel === 'A' || vowel === 'E' || vowel === 'I' || vowel === 'O' || vowel ==='U' || vowel === 'Y'){
+     return true
+  }  else{
+    return false
   }
+}
 
  //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

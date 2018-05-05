@@ -7,22 +7,29 @@
  *
  **/
 
-       var number = 0
-       var string = ''
-       var boolean = true/false
 
 
-function justOneString (input1, input2){
-      var isString = true
+function justOneString(input1, input2){
+  // console.log(input1);
+  // console.log(input2);
 
+  var input1 = typeof input1
+  var input2 = typeof input2
 
-      if (input1 === 'string' && input2 === 'string'){
-         console.log(isString)
-         return true
+  // console.log(input1);
+  // console.log(input2);
+  var isStr = false
+
+   if (input1 === 'string' && input2 !== 'string'){
+         isStr = true
+         return isStr
       }
-        else  {
-        console.log(false);
-        return false
+        else if(input1 !== 'string' && input2 === 'string'){
+        isStr = true
+        return isStr
+      } else{
+        istr = false
+        return isStr
       }
 
 }

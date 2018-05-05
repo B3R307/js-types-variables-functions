@@ -8,14 +8,23 @@
  **/
 
 
-function makeGreeting(username){
-  var hola = '';
+function makeGreeting(strUser){
+  // var greet = ''
 
-  hola = ('Hello ' + username);
-  console.log(hola)
-  return hola
-
+  greet = ('Hello ' + strUser)
+  // console.log(greet);
+  return greet
 }
+
+
+
+// function makeGreeting(username){
+//   var hola = '';
+//
+//   hola = ('Hello ' + username);
+//   console.log(hola)
+//   return hola
+// }
 
 
 

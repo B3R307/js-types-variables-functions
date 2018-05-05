@@ -14,36 +14,26 @@
  *
  **/
 
- var season1 = "winter";
- var season2 = "spring";
- var season3 = "summer";
- var season4 = "fall";
 
 
-function getSeasonForMonth (number){
-if (number === 1 || number === 12){
-     console.log(number, season1);
-     return season1
-} else if (number === 3){
-     console.log(number, season2);
-     return season2
-} else if (number === 5){
-     console.log(number, season2);
-     return season2
-} else if (number === 7){
-    console.log(number, season3);
-    return season3
-} else if (number === 9){
-    console.log(number, season4);
-    return season4
-  }
 
-    if (number <= 0 || number > 12){
-      console.log(number)
-      return false
-    }
+function getSeasonForMonth(number){
+if (number === 1 || number === 2 || number === 12){
+     return "winter"
+
 }
-
+    if(number >= 3 && number <= 5){
+     return "spring"
+   }
+   else if (number >= 6 && number <= 8){
+     return "summer"
+   }
+   else if( number >= 9 && number <= 11){
+     return "fall"
+  } else{
+    return false
+  }
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

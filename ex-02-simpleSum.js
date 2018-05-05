@@ -5,14 +5,25 @@
  * inputs and computes the sum of those two numbers.
  **/
 
+
 function simpleSum(num1, num2){
+  var res = 0;
 
-  var sumNum = 0;
-
-  sumNum = num1 + num2;
-  console.log(sumNum)
-  return sumNum
+  res = num1 + num2
+  // console.log(res);
+  return res
 }
+
+
+
+// function simpleSum(num1, num2){
+//
+//   var sumNum = 0;
+//
+//   sumNum = num1 + num2;
+//   console.log(sumNum)
+//   return sumNum
+// }
 
 
 

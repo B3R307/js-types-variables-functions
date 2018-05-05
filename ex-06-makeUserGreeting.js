@@ -18,29 +18,42 @@
  * NOTE: Don't forget the comma and space and ending puctuation when building the string.
  **/
 
+function makeUserGreeting(user, cust){
+  // var greet = ""
 
-function makeUserGreeting(username, boolean){
-    var greeting = ''
+if(cust === true){
+  greet = "Good to see you again, " + user + "."
+  // console.log("Good to see you again, " + user + '.');
+  return greet
+  }
+   else{
+        greet = "Welcome, "+ user + "!"
+       // console.log("Welcome, "+ user + "!");
+       return greet
+  }
 
-  console.log(username);
-  console.log(boolean);
-
-if (boolean == true){
-   greeting = 'Good to see you again, ' + username + '.'
-   console.log('Good to see you again, ' + username + '.');
-   return greeting
-
-} else {
-    greeting = 'Welcome, ' + username + '!';
-    console.log('Welcome, ' + username + '!');
-    return greeting
- }
 }
 
 
-
+//
+// function makeUserGreeting(username, boolean){
+//     var greeting = ''
+//
+//   console.log(username);
+//   console.log(boolean);
+//
+// if (boolean == true){
+//    greeting = 'Good to see you again, ' + username + '.'
+//    console.log('Good to see you again, ' + username + '.');
+//    return greeting
+//
+// } else {
+//     greeting = 'Welcome, ' + username + '!';
+//     console.log('Welcome, ' + username + '!');
+//     return greeting
+//  }
+// }
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
-
 var funcOutput1 = makeUserGreeting("Atushi", true)
 console.assert( funcOutput1  === "Good to see you again, Atushi." );
 

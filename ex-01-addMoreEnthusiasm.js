@@ -8,16 +8,16 @@
 
 
 
-// (DEMO) You, the student, will write the function
+
+// // (DEMO) You, the student, will write the function
 function addMoreEnthusiasm(inputTxt){
-
-	// ...and your code goes here
+//
+// 	// ...and your code goes here
 	var inputWithEnthusiasm = inputTxt + "!!!"
+// 	console.log(inputWithEnthusiasm);
    return inputWithEnthusiasm
-	 // Remember, you must return a value. Nice!
+// 	 // Remember, you must return a value. Nice!
 }
-
-
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

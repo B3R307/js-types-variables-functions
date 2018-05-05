@@ -9,12 +9,21 @@
  **/
 
 function getAverage(num1, num2){
-   var resultado = 0
-
-      resultado = (num1 + num2)/2
-      console.log(resultado)
-      return resultado
+   var av = 0;
+   av = (num1 + num2) / 2
+   // console.log(av);
+   return av
 }
+
+
+
+// function getAverage(num1, num2){
+//    var resultado = 0
+//
+//       resultado = (num1 + num2)/2
+//       console.log(resultado)
+//       return resultado
+// }
 
 
 
